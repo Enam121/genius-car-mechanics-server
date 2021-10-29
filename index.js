@@ -69,6 +69,10 @@ app.get('/', (req, res) => {
   res.send('Genius car machanics server')
 })
 
+app.get('/', (req, res) => {
+  res.send('hellow')
+})
+
 
 app.listen(port, () => {
   console.log('Ginius car mac- server run on the port', port)
