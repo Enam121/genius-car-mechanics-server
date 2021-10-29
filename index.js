@@ -69,7 +69,7 @@ app.get('/', (req, res) => {
   res.send('Genius car machanics server')
 })
 
-app.get('/', (req, res) => {
+app.get('/hellow', (req, res) => {
   res.send('hellow')
 })
 
